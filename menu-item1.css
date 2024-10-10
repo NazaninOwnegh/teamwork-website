@@ -1,0 +1,9 @@
+/* start navbar css */
+ .nav-link:not(first-child):hover{
+    color: blue;
+ }
+ .nav-link{
+     font-weight: 600;
+     font-size: 16px;
+ }
+/* end navbar css */
