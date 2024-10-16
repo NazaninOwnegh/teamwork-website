@@ -1,0 +1,59 @@
+.position-absolute {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+
+
+li.li {
+    list-style: none;
+}
+
+.head4 {
+    font-weight: 800 ;
+    font-size: xx-large;
+}
+
+ /* footer  */
+
+.bt {
+    width: 40px;
+    height: 40px;
+}
+
+.bi {
+    color:rgb(189, 190, 190);
+}
+
+a {
+    text-decoration: none;
+}
+
+a.hov {
+    transition: linear all 0.15s;
+    transform-origin: left;
+}
+
+.hov :hover {
+    text-transform: capitalize;
+    color: azure !important;
+}
+
+.form-control {
+    width: 160px;
+    height: 50px;
+}
+
+
+
+a.btn-info:hover {
+    background-color: rgb(11, 11, 252) !important;
+}
+
+.border1 {
+    width: 100%!important;
+    height: 1px !important;
+    background-color: rgb(186, 190, 194) !important;
+}
+
+/* footer-end  */
