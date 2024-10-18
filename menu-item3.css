@@ -1,0 +1,72 @@
+.position-absolute {
+    position: absolute;
+    top: 90px;
+    left: 70px;
+}
+
+
+li.li {
+    list-style: none;
+}
+
+
+.head4 {
+    font-weight: 800 ;
+    font-size: 60px;
+}
+
+.headimg {
+    width: 100%;
+    height: 350px;
+}
+
+
+/* footer  */
+
+.footer-c {
+    background-color: rgb(1, 24, 4);
+}
+
+.bt {
+    width: 40px;
+    height: 40px;
+}
+
+.bi {
+    color:rgb(189, 190, 190);
+}
+
+a {
+    text-decoration: none;
+}
+
+a.hov {
+    transition: linear all 0.15s;
+    transform-origin: left;
+}
+
+.hov :hover {
+    text-transform: capitalize;
+    color: azure !important;
+}
+
+.form-control {
+    width: 160px;
+    height: 50px;
+}
+
+.f-button {
+    background-color: rgb(92, 189, 92) !important;
+}
+
+a.f-button:hover {
+    background-color: rgb(67, 129, 67) !important;
+}
+
+.border1 {
+    width: 100%!important;
+    height: 1px !important;
+    background-color: rgb(186, 190, 194) !important;
+}
+
+/* footer-end  */
