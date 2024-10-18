@@ -1,0 +1,106 @@
+.nav-link:not(first-child):hover{
+    color: blue;
+ }
+ .nav-link{
+     font-weight: 600;
+     font-size: 16px;
+ }
+ .s-button{
+     justify-self: flex-start;
+     background-color: rgb(17, 26, 17);
+     border: none;
+     transition: all 0.5s;
+     color: #fff;
+ }
+ .carousel-item h5{
+     background-color: rgba(14, 49, 14, 0.616);
+     border: none;
+     border-radius: 10px;
+     padding: 5px;
+     color: #fff;
+ }
+ .carousel-item p {
+     color: #fff;
+ }
+ .s-button:hover{
+     background-color: rgb(14, 66, 14);
+ }
+ .card{
+     border: none;
+ }
+ .card-text{
+     font-size: 17px;
+     font-weight: 500;
+ }
+ .btn-part2{
+     border: none;
+     background-color: rgb(8, 77, 8);
+     color: #fff;
+     transition: all 0.5s;
+ }
+ .btn-part2:hover{
+ background-color: rgb(8, 77, 8);
+ background-color: rgba(140, 204, 140, 0.795);
+ color: #fff;
+ }
+ .part-3 {
+     background: linear-gradient(rgba(11, 66, 23, 0.9),rgba(11, 66, 23, 0.9)), url(https://d33x1o3gj9io8i.cloudfront.net/images/1244/lg_Pzg8hUCPTxWW0AF5pZTu) no-repeat;
+     background-size: cover;
+ }
+ input{
+     border-radius: 10%;
+ }
+ /* .part-4{
+     padding: 0;
+ } */
+ .card{
+     box-shadow: 20px 0 100px rgb(0 0 0 /10%);
+ }
+ .position{
+     position: absolute;
+     bottom: 0;
+     transition-duration: 2ms;
+ }
+ .card:hover .position{
+     display: block !important;
+       transition-duration: 2s;
+       transform: scaleY(1.01);
+ }
+ /* .card:hover .card-img-top{
+     transform: scale(1.07);
+ }
+ .card-img-top{
+     transition: all 1s;
+ } */
+ .btn-square:hover{
+ background-color: #0d6efd;
+ }
+ .bi{
+     color:#0d6efd;
+ }
+ .btn-square:hover{
+     transition: all 0.5s;
+ }
+ .btn-square:hover .bi{
+     color: #fff;
+ }
+ .c-icon{
+     color: aliceblue;
+     background-color: blue;
+     
+ }
+ .carousel-control-prev , .carousel-control-next{
+     align-items: flex-end;
+     display: flex;
+     gap: 0;
+     opacity: 100;
+ }
+ .carousel-control-prev{
+     margin-left: 20%;
+ }
+ .carousel-control-next{
+     margin-right: 20%;
+ }
+ .c-img-2{
+     margin-bottom: 15%;
+ }
