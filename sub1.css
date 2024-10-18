@@ -26,6 +26,9 @@ img.rounded {
 }
 
  /* footer  */
+ .footer-c {
+    background-color: rgb(1, 24, 4);
+}
 
 .bt {
     width: 40px;
@@ -57,8 +60,12 @@ a.hov {
 
 
 
-a.btn-info:hover {
-    background-color: rgb(11, 11, 252) !important;
+.f-button {
+    background-color: rgb(92, 189, 92) !important;
+}
+
+a.f-button:hover {
+    background-color: rgb(67, 129, 67) !important;
 }
 
 .border1 {
