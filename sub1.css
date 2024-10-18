@@ -1,7 +1,7 @@
 .position-absolute {
     position: absolute;
     top: 50px;
-    left: 150px;
+    left: 70px;
 }
 
 
@@ -9,9 +9,20 @@ li.li {
     list-style: none;
 }
 
+
 .head4 {
     font-weight: 800 ;
     font-size: xx-large;
+}
+
+.headimg {
+    width: 100%;
+    height: 250px;
+}
+
+img.rounded {
+    width: 550px;
+    height: 700px;
 }
 
  /* footer  */
