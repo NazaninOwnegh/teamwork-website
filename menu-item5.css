@@ -1,0 +1,136 @@
+/* start navbar css */
+.nav-link:not(first-child):hover{
+    color: blue;
+ }
+ .nav-link{
+     font-weight: 600;
+     font-size: 16px;
+ }
+/* end navbar css */
+.d-lg-block {
+    display: block !important;
+}
+
+.bg-dark {
+background-color: #15233C !important;
+}
+.text-white-50 {
+color: rgba(255, 255, 255, 0.5) !important;
+}
+.py-2 {
+padding-top: .5rem !important;
+padding-bottom: .5rem !important;
+}
+.px-0 {
+padding-right: 0 !important;
+padding-left: 0 !important;
+}
+.container-fluid{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.display-4 {
+    font-size: calc(1.475rem + 2.7vw);
+    font-weight: 700;
+    line-height: 1.2;
+    color: rgb(246, 241, 241);
+}
+.slideInDown {
+    animation-name: slideInDown;
+}
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.position-absolute {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+
+
+li.li {
+    list-style: none;
+}
+
+.head4 {
+    font-weight: 800 ;
+    font-size: xx-large;
+}
+
+ /* footer  */
+
+.bt {
+    width: 40px;
+    height: 40px;
+}
+
+.bi {
+    color:rgb(189, 190, 190);
+}
+
+a {
+    text-decoration: none;
+}
+
+a.hov {
+    transition: linear all 0.15s;
+    transform-origin: left;
+}
+
+.hov :hover {
+    text-transform: capitalize;
+    color: azure !important;
+}
+
+.form-control {
+    width: 160px;
+    height: 50px;
+}
+
+
+
+a.btn-info:hover {
+    background-color: rgb(11, 11, 252) !important;
+}
+
+.border1 {
+    width: 100%!important;
+    height: 1px !important;
+    background-color: hsl(210, 6%, 75%) !important;
+}
+
+.contact-form {
+    color: black;
+    font-weight: bold;
+}
+.box {
+    color: dimgrey;
+}
+
+.form-control {
+    width: 605px;
+}
+
+.page-header {
+    background: url(https://plnts.com/_next/image?url=https%3A%2F%2Fplnts-api.ams3.digitaloceanspaces.com%2Fmain%2FPLNTS_for_life_background_67f551596d.jpg&w=1080&q=75) center center no-repeat;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #696E77;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/* footer-end  */

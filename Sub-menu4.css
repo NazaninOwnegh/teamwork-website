@@ -1,0 +1,88 @@
+/* start navbar css */
+.nav-link:not(first-child):hover{
+    color: blue;
+ }
+ .nav-link{
+     font-weight: 600;
+     font-size: 16px;
+ }
+/* end navbar css */
+.position-absolute {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+
+
+li.li {
+    list-style: none;
+}
+
+.head4 {
+    font-weight: 800 ;
+    font-size: xx-large;
+}
+
+ /* footer  */
+
+.bt {
+    width: 40px;
+    height: 40px;
+}
+
+.bi {
+    color:rgb(189, 190, 190);
+}
+
+a {
+    text-decoration: none;
+}
+
+a.hov {
+    transition: linear all 0.15s;
+    transform-origin: left;
+}
+
+.hov :hover {
+    text-transform: capitalize;
+    color: azure !important;
+}
+
+.form-control {
+    width: 160px;
+    height: 50px;
+}
+
+
+
+a.btn-info:hover {
+    background-color: rgb(11, 11, 252) !important;
+}
+
+.border1 {
+    width: 100%!important;
+    height: 1px !important;
+    background-color: rgb(186, 190, 194) !important;
+}
+
+.display-4 {
+    color: rgb(241, 241, 241);
+    font-weight: bold;
+}
+
+.page-header {
+    background: url(https://plnts.com/_next/image?url=https%3A%2F%2Fplnts-api.ams3.digitaloceanspaces.com%2Fmain%2FHomepage_banner_b9743d9ea7.jpg&w=1920&q=80) center center no-repeat;
+    background-size: cover;
+}
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #696E77;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/* footer-end  */
