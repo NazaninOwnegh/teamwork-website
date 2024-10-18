@@ -1,0 +1,126 @@
+.nav-link:not(first-child):hover{
+    color: blue;
+ }
+ .nav-link{
+     font-weight: 600;
+     font-size: 16px;
+ }
+ .position-absolute {
+    position: absolute;
+    top: 90px;
+    left: 70px;
+}
+
+
+li.li {
+    list-style: none;
+}
+
+
+.head4 {
+    font-weight: 800 ;
+    font-size: xx-large;
+}
+
+.headimg {
+    width: 100%;
+    height: 350px;
+}
+ .s-button{
+     justify-self: flex-start;
+ }
+ .border-menu{
+    background-color: rgba(209, 209, 209, 0.349);
+ }
+ .header-bg{
+    background: url(https://plnts.com/_next/image?url=https%3A%2F%2Fplnts-api.ams3.digitaloceanspaces.com%2Fmain%2FHomepage_banner_b9743d9ea7.jpg&w=1920&q=80) center center no-repeat;
+    background-size: cover;
+    height: 350px;
+ }
+ .card{
+    box-shadow: 20px 0 100px rgb(0 0 0 /10%);
+}
+.position{
+    position: absolute;
+    bottom: 0;
+    transition-duration: 2ms;
+}
+.card:hover .position{
+    display: block !important;
+      transition-duration: 2s;
+      transform: scaleY(1.01);
+}
+/* .card:hover .card-img-top{
+    transform: scale(1.07);
+}
+.card-img-top{
+    transition: all 1s;
+} */
+.btn-square:hover{
+background-color: #133f15;
+}
+.bi{
+    color: #133f15 !important;
+}
+.btn-square:hover{
+    transition: all 0.5s;
+}
+.btn-square:hover .bi{
+    color: #fff !important;
+}
+.c-icon{
+    color: aliceblue;
+    background-color: blue;
+    
+}
+/* footer  */
+
+.footer-c {
+    background-color: rgb(1, 24, 4);
+}
+
+.bt {
+    width: 40px;
+    height: 40px;
+}
+
+.bi {
+    color:rgb(189, 190, 190);
+}
+
+a {
+    text-decoration: none;
+}
+
+a.hov {
+    transition: linear all 0.15s;
+    transform-origin: left;
+}
+.hov{
+    transition: all 0.3s;
+}
+.hov :hover {
+    text-transform: capitalize;
+    color: azure !important;
+}
+
+.form-control {
+    width: 160px;
+    height: 50px;
+}
+
+.f-button {
+    background-color: rgb(92, 189, 92) !important;
+}
+
+a.f-button:hover {
+    background-color: rgb(67, 129, 67) !important;
+}
+
+.border1 {
+    width: 100%!important;
+    height: 1px !important;
+    background-color: rgb(186, 190, 194) !important;
+}
+
+/* footer-end  */
